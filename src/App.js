@@ -9,9 +9,23 @@ function App() {
 
       <section className="App-body">
           
-          <navigation className="App-subjects"> </navigation>
-          <main>Hi</main>
-          <navigation className="App-headers"> </navigation>
+          <section className="App-subjects"> 
+          
+          <h3> App-Subjects </h3>
+          
+          </section>
+          
+          <main className="App-information">
+
+          <h2> App-Informations </h2>
+
+          </main>
+
+          <section className="App-headers"> 
+          
+          <h3> App-headers </h3> 
+
+          </section>
 
       </section>
     </div>
