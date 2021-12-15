@@ -1,29 +1,41 @@
 import './App.css';
-import cursorSyntax from './assets/syntax/create_Cursors1.PNG';
 import LeftPane from './components/leftPane';
 import RightPane from './components/rightPane';
 import CenterPane from './components/centerPane';
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 let test1 = 'test2';
 
 function App() {
   return (
-    <div className="App">
-      
-
-      <section className="App-body">
+    <Router>
+        <div className="App">
           
-          <LeftPane />
-          
-          <CenterPane cursorSyntax={cursorSyntax} />        
-            
 
-          <RightPane />
-
-
-
-      </section>
-    </div>
+          <section className="App-body">
+              
+              <Switch>
+                  <Route exact path="/"> 
+                      <LeftPane />
+                      <CenterPane page = "Sprite" />        
+                      <RightPane />
+                  </Route>
+                  <Route exact path="/sprite">
+                      <LeftPane />
+                      <CenterPane page="Sprite" />        
+                      <RightPane />
+                  </Route>
+                  <Route exact path="/BasicPhysics">
+                      <LeftPane />
+                      <CenterPane page="BasicPhysics" />        
+                      <RightPane />
+                  </Route>
+                  
+              </Switch>
+          </section>
+        </div>
+    </Router>
   );
 }
 

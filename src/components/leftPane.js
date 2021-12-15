@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 
 function LeftPane() {
 
@@ -13,12 +15,14 @@ function LeftPane() {
                         <h3> App-Subjects LINES</h3>
 
                         <ul className="subectLinks">
-                          <li><a href="#"> Subject 1</a></li>
-                          <li><a href="#"> Subject 2</a></li>
-                          <li><a href="#"> Subject 3</a></li>
-                          <li><a href="#"> Subject 4</a></li>
-                          <li><a href="#"> Subject 5</a></li>
-                          <li><a href="#"> Subject 6</a></li>
+                            <li><Link to="/sprite"> Sprite </Link></li>
+                            <li><Link to="/BasicPhysics"> basic physics </Link></li>
+                            <li><a href="#"> extending classes </a></li>
+                            <li><a href="#"> gravity</a></li>
+                            <li><a href="#"> cursors</a></li>
+                            <li><a href="#"> music </a></li>
+                            <li><a href="#"> sound </a></li>
+                            <li><a href="#">  </a></li>
                         </ul>
                   </div>
             

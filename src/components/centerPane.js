@@ -1,27 +1,44 @@
-function CenterPane(props) {
+import React from "react";
+import Sprites from "./content/sprites";
+import BasicPhysics from "./content/basic_physics";
+import cursorSyntax from '../assets/syntax/create_Cursors1.PNG';
 
-    return (
+
+
+class CenterPane extends React.Component {
+
+    constructor() {
+      super();
+
+      this.state = {page: 'none'}
+    }
+
+    render () {
+
+    let currentPage = null;
+
+    if (this.props.page == 'Sprite') {
+      currentPage = <Sprites cursorSyntax={cursorSyntax} />
+      console.log('sprite page loaded');
+    } else if (this.props.page == 'BasicPhysics') {
+      currentPage = <BasicPhysics cursorSyntax={cursorSyntax} />
+      console.log('Basic Physics page loaded');
+    } else {
+      currentPage = <Sprites cursorSyntax={cursorSyntax} />
+      console.log('sprite page loaded becaus of else');
+      console.log(this.props.page);
+    }
+      
+      return (
         <main className="App-information">
 
-                <div id="informationTitle">
-                      <h2> App-Information SUBJECT LINE </h2>
-                </div>
-                
-                <div className="content">
-                      <p id="tagline"> This is an example of a tagline. This will be the summary 
-                        line giving users an explanation of the component, what it is used for 
-                        and thoughts on the component. This will make it easy for people to understand
-                        whether or not they found the right component.
-                      </p>
+          {currentPage}
+          
+        </main>
+      );
+    }
 
-                      <h3> *SUBJECT TITLE* Syntax </h3>  
-
-                       <img class="codeSnippets" src={props.cursorSyntax} alt="Syntax for adding cursors"/>
-                </div>           
-
-            </main>
-        
-    );
+    
     
 }
 
