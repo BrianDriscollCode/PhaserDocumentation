@@ -16,9 +16,19 @@ function App() {
           <section className="App-body">
               
               <Switch>
+                  <Route exact path="/introduction">
+                      <LeftPane />
+                      <CenterPane page="Introduction" />        
+                      <RightPane />
+                  </Route>
                   <Route exact path="/"> 
                       <LeftPane />
-                      <CenterPane page = "Sprite" />        
+                      <CenterPane page = "Introduction" />        
+                      <RightPane />
+                  </Route>
+                  <Route exact path="/basics"> 
+                      <LeftPane />
+                      <CenterPane page = "Basics" />        
                       <RightPane />
                   </Route>
                   <Route exact path="/sprite">
@@ -26,11 +36,17 @@ function App() {
                       <CenterPane page="Sprite" />        
                       <RightPane />
                   </Route>
-                  <Route exact path="/BasicPhysics">
+                  <Route exact path="/basic_physics">
                       <LeftPane />
                       <CenterPane page="BasicPhysics" />        
                       <RightPane />
                   </Route>
+                  <Route exact path="/extending_classes">
+                      <LeftPane />
+                      <CenterPane page="ExtendingClasses" />        
+                      <RightPane />
+                  </Route>
+                  
                   
               </Switch>
           </section>

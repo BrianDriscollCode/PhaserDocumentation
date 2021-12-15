@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-function BasicPhysics(props) {
+function Basics(props) {
 
     return (
         <div id="informationTitle">
-                      <h2> Basic Physics </h2>
+                      <h2> Basics </h2>
                 
 
                 <div className="content">
@@ -33,23 +33,10 @@ function BasicPhysics(props) {
                       <h3> *SUBJECT TITLE* Syntax </h3>  
 
                        <img className="codeSnippets" src={props.cursorSyntax} alt="Syntax for adding cursors"/>
-                
-                       <p id="tagline"> This is an example of a tagline. This will be the summary 
-                        line giving users an explanation of the component, what it is used for 
-                        and thoughts on the component. This will make it easy for people to understand
-                        whether or not they found the right component.
-                      </p>
-                      <p id="tagline"> This is an example of a tagline. This will be the summary 
-                        line giving users an explanation of the component, what it is used for 
-                        and thoughts on the component. This will make it easy for people to understand
-                        whether or not they found the right component.
-                      </p>
-
-                      <h3 id="setConfigGravity"> *SUBJECT TITLE* Syntax </h3> 
                 </div>
             </div>   
     );
 
 }
 
-export default BasicPhysics;
+export default Basics;

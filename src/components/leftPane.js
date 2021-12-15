@@ -15,9 +15,11 @@ function LeftPane() {
                         <h3> App-Subjects LINES</h3>
 
                         <ul className="subectLinks">
+                            <li><Link to="/introduction"> Introduction </Link></li>
+                            <li><Link to="/basics"> Basics </Link></li>
                             <li><Link to="/sprite"> Sprite </Link></li>
-                            <li><Link to="/BasicPhysics"> basic physics </Link></li>
-                            <li><a href="#"> extending classes </a></li>
+                            <li><Link to="/basic_physics"> basic physics </Link></li>
+                            <li><Link to="/extending_classes"> extending classes </Link></li>
                             <li><a href="#"> gravity</a></li>
                             <li><a href="#"> cursors</a></li>
                             <li><a href="#"> music </a></li>
