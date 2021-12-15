@@ -5,6 +5,7 @@ import CenterPane from './components/centerPane';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+
 let test1 = 'test2';
 
 function App() {
@@ -19,32 +20,32 @@ function App() {
                   <Route exact path="/introduction">
                       <LeftPane />
                       <CenterPane page="Introduction" />        
-                      <RightPane />
+                      <RightPane page="Introduction" />
                   </Route>
                   <Route exact path="/"> 
                       <LeftPane />
                       <CenterPane page = "Introduction" />        
-                      <RightPane />
+                      <RightPane page="Introduction" />
                   </Route>
                   <Route exact path="/basics"> 
                       <LeftPane />
                       <CenterPane page = "Basics" />        
-                      <RightPane />
+                      <RightPane page = "Basics" />
                   </Route>
                   <Route exact path="/sprite">
                       <LeftPane />
                       <CenterPane page="Sprite" />        
-                      <RightPane />
+                      <RightPane page="Sprite" />
                   </Route>
                   <Route exact path="/basic_physics">
                       <LeftPane />
                       <CenterPane page="BasicPhysics" />        
-                      <RightPane />
+                      <RightPane page="BasicPhysics" />
                   </Route>
                   <Route exact path="/extending_classes">
                       <LeftPane />
                       <CenterPane page="ExtendingClasses" />        
-                      <RightPane />
+                      <RightPane page="ExtendingClasses" />
                   </Route>
                   
                   

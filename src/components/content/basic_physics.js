@@ -45,7 +45,7 @@ function BasicPhysics(props) {
                         whether or not they found the right component.
                       </p>
 
-                      <h3 id="setConfigGravity"> *SUBJECT TITLE* Syntax </h3> 
+                      <h3 id="setConfigGravity"> Set Config Gravity </h3> 
                 </div>
             </div>   
     );

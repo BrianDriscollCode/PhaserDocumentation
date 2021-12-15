@@ -15,8 +15,6 @@ class CenterPane extends React.Component {
 
     constructor() {
       super();
-
-      this.state = {page: 'none'}
     }
 
     render () {

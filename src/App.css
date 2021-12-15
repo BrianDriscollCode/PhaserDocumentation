@@ -111,6 +111,24 @@ h1 {
   margin-left: 15%;
 }
 
+/********* information description lists ********/
+
+.content dl {
+  width: 85%;
+  align-self: center;
+  padding-bottom: 5%;
+}
+
+.content dt {
+  font-size: 30px;
+}
+
+.content dd {
+  font-size: 22px;
+}
+
+
+
 /***************** Code Snippets ******************/
 
 .codeSnippets {
@@ -126,9 +144,22 @@ h1 {
 .App-headers {
   background: orange;
   width: 19.33%;
- 
   display: flex;
   justify-content: center;
+
+}
+
+#headerTitle {
+  width: 100%;
+}
+
+#headerTitle h3 {
+  display: flex;
+  justify-content: center;
+}
+
+#headerTitle h3 {
+
 }
 
 #headerTitle ul li {
