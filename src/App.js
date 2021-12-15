@@ -1,31 +1,26 @@
 import './App.css';
+import cursorSyntax from './assets/syntax/create_Cursors1.PNG';
+import LeftPane from './components/leftPane';
+import RightPane from './components/rightPane';
+import CenterPane from './components/centerPane';
+
+let test1 = 'test2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> Phaser Documentation </h1>
-      </header>
+      
 
       <section className="App-body">
           
-          <section className="App-subjects"> 
+          <LeftPane />
           
-          <h3> App-Subjects </h3>
-          
-          </section>
-          
-          <main className="App-information">
+          <CenterPane cursorSyntax={cursorSyntax} />        
+            
 
-          <h2> App-Informations </h2>
+          <RightPane />
 
-          </main>
 
-          <section className="App-headers"> 
-          
-          <h3> App-headers </h3> 
-
-          </section>
 
       </section>
     </div>
