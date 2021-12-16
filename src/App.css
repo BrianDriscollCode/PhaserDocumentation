@@ -125,6 +125,11 @@ h1 {
 
 .content dd {
   font-size: 22px;
+  margin-top: 3%;
+}
+
+.lastDescriptionLine {
+  margin-bottom: 3%;
 }
 
 
@@ -139,6 +144,11 @@ h1 {
   margin-bottom: 3%;
 }
 
+.codelet {
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
 
 /*************** HEADERS ****************/
 .App-headers {

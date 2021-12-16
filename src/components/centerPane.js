@@ -11,6 +11,7 @@ import Introduction from "./content/introduction";
 import Basics from "./content/basics";
 
 
+
 class CenterPane extends React.Component {
 
     constructor() {
