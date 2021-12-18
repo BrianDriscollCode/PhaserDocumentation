@@ -12,6 +12,7 @@ function SpritesHeader() {
                 <div id="subjectTitle">
                           <ul className="subjectLinks">
                               <HashLink smooth to="/sprite#WaysToCreateASprite"><li> Ways to Create a Sprite </li></HashLink>
+                              <HashLink smooth to="/sprite#Collisions"><li> Collisions </li></HashLink>
                               
                             
                           </ul>

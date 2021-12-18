@@ -5,7 +5,7 @@ function IntroductionHeaders() {
 
     return(
         <div id="headerTitle">
-              <h3> App-headers Lines </h3> 
+              <h3> Page Subjects </h3> 
 
                 <div id="subjectTitle">
                           <ul className="subjectLinks">

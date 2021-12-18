@@ -1,14 +1,14 @@
 
 body {
   margin: 0, 0, 0, 0;
-  background-color: red;
+  background-color: #FFFFEF;
 }
 h1 {
   margin: 0;
 }
 
 .App {
-  background-color: blue;
+  background-color: #FFFFEF;
   height: 100%;
   margin: 2% 5% 10% 5%;
 }
@@ -32,18 +32,23 @@ h1 {
   display: flex;
   flex-direction: row;
   height: 100%;
+  margin-left: -2%;
 }
 
 /*************** SUBJECTS ****************/
 .App-subjects {
-  background: purple;
+  background: #eefffd;
   width: 18.33%;
-  
+  border-style: solid;
+  border-color: #abf5ff;
+  ;
+  border-width: 1px;
+  height: 50%;
+
 }
 
 .App-header {
   font-size: 30px;
-  
 }
 
 h1 {
@@ -71,7 +76,7 @@ h1 {
 
 /*************** INFORMATION ****************/
 .App-information {
-  background: yellow;
+  background: #FFFFEF;
   width: 63.33%;
   height: 100%;
   margin-top: 2%;
@@ -84,25 +89,26 @@ h1 {
 }
 
 #informationTitle h2 {
-  font-size: 40px;
+  font-size: 32px;
   align-self: center;
 }
 
 .content {
   display: flex;
+  align-self: center;
   justify-content: center;
   flex-direction: column;
 }
 
 .content #tagline {
  width: 85%;
- font-size: 25px;
+ font-size: 18px;
  align-self: center;
 }
 
 .content #text {
   width: 85%;
-  font-size: 25px;
+  font-size: 18px;
   align-self: center;
  }
 
@@ -111,20 +117,45 @@ h1 {
   margin-left: 15%;
 }
 
+.afterFirstTitle {
+  
+}
+
+.lineBottomSpace {
+  margin-bottom: 3%;
+}
+
+/******** entries ********/
+
+.entry {
+  background-color: #dffbff;
+  border: solid;
+  border-color: #abf5ff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  width: 70%;
+  margin-top: 2%;
+}
+
+.entry h3 {
+  margin-top: 2%;
+}
+
 /********* information description lists ********/
 
 .content dl {
   width: 85%;
   align-self: center;
-  padding-bottom: 5%;
 }
 
 .content dt {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .content dd {
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 3%;
 }
 
@@ -140,7 +171,6 @@ h1 {
   width: 85%;
   align-self: center;
   margin-top: 3%;
-  border-radius: 10px;
   margin-bottom: 3%;
 }
 
@@ -148,14 +178,21 @@ h1 {
   margin-left: 10%;
   margin-top: 1%;
   margin-bottom: 3%;
+  padding-left: 10%;
+  width: 70%;
+  background-color: #FFD38c;
 }
 
 /*************** HEADERS ****************/
 .App-headers {
-  background: orange;
+  background: #FFD38c;
   width: 19.33%;
   display: flex;
+  border: solid;
+  border-width: 1px;
+  border-color: #ffb24e;
   justify-content: center;
+  height: 50%;
 
 }
 

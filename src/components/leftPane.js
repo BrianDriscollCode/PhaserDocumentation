@@ -12,7 +12,7 @@ function LeftPane() {
 
                   
                   <div id="subjectTitle">
-                        <h3> App-Subjects LINES</h3>
+                        <h3> Topics </h3>
 
                         <ul className="subectLinks">
                             <li><Link to="/introduction"> Introduction </Link></li>

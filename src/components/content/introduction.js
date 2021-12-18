@@ -36,23 +36,27 @@ function Introduction(props) {
                         reference. If you are trying to learn Phaser from scratch and need a beginner guide, please refer to <a href="https://phaser.io/tutorials/getting-started-phaser3">Phaser's Getting Started Guide</a>.
                     </p>
 
+
+                    <div className='entry'>
                     <h3 id="MoreResources"> More Resources </h3>
 
-                    <dl> 
-                        <dt> <a href="https://phaser.io/examples"> Phaser 3 Official Examples</a></dt>
-                        <dd> - This resource offers real 
-                            working examples that can be edited and tinkered with. Great when searching how to
-                            implement specific functions.
-                        </dd>
-                        <dt> <a href="https://phaser.io/community/discord" >Phaser Discord Channel</a> </dt>
-                        <dd> - If you get stuck, this is the place to go! Also, don't code in isolation. 
-                            It's great to mingle with others who are doing the same thing you are!
-                        </dd>
-                        <dt> <a href="https://www.youtube.com/user/WClarkson/videos"> William Clarkson's YouTube Channel</a> </dt>
-                        <dd> Very short and sweet videos about specific concepts. Sometimes it can be confusing, but sometimes it 
-                            will be exactly the solution you need.
-                        </dd>
-                    </dl>
+                        <dl> 
+                            <dt> <a href="https://phaser.io/examples"> Phaser 3 Official Examples</a></dt>
+                            <dd> - This resource offers real 
+                                working examples that can be edited and tinkered with. Great when searching how to
+                                implement specific functions.
+                            </dd>
+                            <dt> <a href="https://phaser.io/community/discord" >Phaser Discord Channel</a> </dt>
+                            <dd> - If you get stuck, this is the place to go! Also, don't code in isolation. 
+                                It's great to mingle with others who are doing the same thing you are!
+                            </dd>
+                            <dt> <a href="https://www.youtube.com/user/WClarkson/videos"> William Clarkson's YouTube Channel</a> </dt>
+                            <dd> Very short and sweet videos about specific concepts. Sometimes it can be confusing, but sometimes it 
+                                will be exactly the solution you need.
+                            </dd>
+                        </dl>
+                    </div>
+                    
 
                 </div>
             </div>   
